@@ -1,0 +1,19 @@
+name: CommandsPlugin
+version: '${project.version}'
+main: me.fast.commandsplugin.CommandsPlugin
+api-version: 1.18
+authors: [ fastskating12 ]
+description: All the essential commands you need
+commands:
+    gmc:
+        description: Changes your gamemode to Creative!
+        usage: <command>
+    gms:
+        description: Changes your gamemode to Survival
+        usage: <command>
+    gmsp:
+        description: Changes your gamemode to Spectator
+        usage: <command>
+    gma:
+        description: Changes your gamemode to Adventure
+        usage: <command>
